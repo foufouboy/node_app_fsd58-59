@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
 		return;
 	}
 
-	if (url === "" && req.method === "GET") {
+	if (url === "") {
 		homeController(req, res);
 		return;
 	}
