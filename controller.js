@@ -45,7 +45,7 @@ export const formController = (req, res, method) => {
 				res.writeHead(401, {
 					"Content-Type": "text/plain",
 				});
-				res.end("Le champ name ne peut pas être vide.");
+				res.end("Un des champs est vide !");
 				return;
 			}
 
