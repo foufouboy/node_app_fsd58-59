@@ -51,7 +51,7 @@ export const formController = (req, res, method) => {
 
 			users.push({
 				nom: name,
-				email: email || "",
+				email: email,
 				role: "utilisateur",
 			});
 			res.writeHead(301, {
